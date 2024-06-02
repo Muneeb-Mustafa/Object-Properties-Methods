@@ -1,0 +1,36 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    overflow-x: hidden;
+}
+.half-width {
+    display: inline-block;
+    width: calc(50% - 5px); /* Adjusting for margin */
+}
+#userbtn{
+    background-color: #3eb36d;
+    border: none;
+    max-width: 60%;
+    /* font-size: 18px;
+    font-weight: 500; */
+}
+
+#userbtn:hover{
+    background-color: #38ce74;
+}
+
+@media (max-width: 768px) {
+    .output-container {
+        max-height: 360px;
+    }
+    #form_container{
+        margin-top: 20px;
+
+    }
+}
